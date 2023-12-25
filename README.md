@@ -12,3 +12,8 @@ git add .
 ```
 git commit -m "This is my first commit"
 ```
+
+```
+To fetch the changes use:
+git pull
+```
