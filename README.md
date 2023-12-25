@@ -10,5 +10,5 @@ git add .
 ```
 
 ```
-git commit -u "This is my first commit"
+git commit -m "This is my first commit"
 ```
