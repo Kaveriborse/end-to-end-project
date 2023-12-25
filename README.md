@@ -22,3 +22,12 @@ git pull
 # run command inside linux terminal the command is:
 bash filename.sh
 ```
+
+```
+#to install local package
+python setup.py install
+or
+#can mention -e . in req file and ru
+pip install -r requirements.txt
+
+```
