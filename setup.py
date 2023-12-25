@@ -1,7 +1,7 @@
 from setuptools import find_packages,setup
 from typing import List
 
-"""HYPEN_E_DOT='-e .'
+"""HYPEN_E_DOT='-e .'  # it is for calling setup.py file by requirements.txt file
 
 def get_requirements(file_path:str)->List[str]:
     requirements=[]
