@@ -1,0 +1,6 @@
+pandas
+numpy
+scikit-learn
+
+
+-e . # . means current dir and we can install local pac bu "pip install req...."
