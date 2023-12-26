@@ -1,6 +1,6 @@
 pandas
 numpy
 scikit-learn
-
+seaborn
 
 -e . # . means current dir and we can install local pac bu "pip install req...."
