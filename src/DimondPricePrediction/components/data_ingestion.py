@@ -30,7 +30,7 @@ class DataIngestion:
             data=pd.read_csv(Path(os.path.join('notebooks/data','gemstone.csv')))
             logging.info('I have resd the dataset as df')
             
-
+#           making of dir,dir name i.e artifacts,path join of raw data and dir
             os.makedirs(os.path.dirname(os.path.join(self.ingestion_config.raw_data_path)),exist_ok=True) #dir
             data.to_csv(self.ingestion_config.raw_data_path,index=False)    # save data into csv for
             logging.info('I have save data in artifact folder')
