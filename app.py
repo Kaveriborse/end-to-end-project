@@ -1,4 +1,4 @@
-from src.DimondPricePrediction.pipelines.prediction_pipeline import CustomData
+from src.DimondPricePrediction.pipelines.prediction_pipeline import CustomData,PredictPipeline
 
 from flask import Flask, request ,render_template ,jsonify
 
