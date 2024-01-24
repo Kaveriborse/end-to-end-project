@@ -3,6 +3,7 @@ numpy
 scikit-learn
 seaborn
 Flask
+mlflow==2.2.2
 dvc
 
 -e . # . means current dir and we can install local pac bu "pip install req...."
